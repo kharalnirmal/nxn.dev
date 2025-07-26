@@ -1,4 +1,5 @@
 import React from 'react';
+import Education from './Education';
 
 const Home = () => {
   const techStack = [
@@ -64,9 +65,9 @@ const Home = () => {
           {/* -----------------------------------------------Education div ---------------------------------------------------- */}
 
         </div>
-        <div className="bg-[#0D3C52] text-white p-4 rounded-2xl md:col-span-6 md:row-span-4 md:col-start-6 md:row-start-6">
+        <div className="bg-[#18181B] text-white p-4 rounded-2xl md:col-span-6 md:row-span-4 md:col-start-6 md:row-start-6">
           <div>
-            <h1 className=' text-3xl font-bold md:text-4xl pt-2 md:pt-1 md:pl-2 '>Education</h1>
+            <Education />
             
           </div>
         </div>
