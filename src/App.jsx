@@ -22,7 +22,6 @@ const App = () => {
     if (isloading && HomeRef.current) {
 gsap.from(HomeRef.current, {
   opacity:0,
-  y:50,
   duration: 1,
   ease: "power1.inOut",
 })
