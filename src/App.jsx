@@ -32,7 +32,7 @@ gsap.from(HomeRef.current, {
   return (
     <main>
     <div className="relative h-screen w-screen overflow-hidden">
-      {!isloading? (
+      {isloading? (
         <div ref={LoaderRef}>
           <Loader onComplete={handelLoaderComplete } />
         </div>

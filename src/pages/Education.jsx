@@ -42,10 +42,10 @@ const EducationExperience = () => {
     data.map((item, idx) => (
       <div key={idx} className="timeline-item relative pl-10 sm:pl-16 pb-10">
         {/* Vertical Line */}
-        <div className="absolute left-4 sm:left-6 top-0 w-1 h-full bg-cyan-600 rounded-full" />
+        <div className="absolute left-4 sm:left-6 top-0 w-1 h-full bg-[#0D3C52] rounded-full" />
 
         {/* Timeline Dot with Logo */}
-        <div className="absolute left-0 sm:left-1 top-0 w-8 h-8 bg-[#18181b] rounded-full border-4 border-cyan-600 overflow-hidden z-10 shadow-lg">
+        <div className="absolute left-0 sm:left-1 top-0 w-8 h-8 bg-[#18181b] rounded-full border-4 border-[#0D3C52] overflow-hidden z-10 shadow-lg">
           <img src={item.logo} alt="logo" className="w-full h-full object-contain p-1" />
         </div>
 
@@ -73,14 +73,14 @@ const EducationExperience = () => {
         <button
           onClick={() => setShowEducation(true)}
           className={`px-4 py-2 rounded-lg font-semibold transition 
-            ${showEducation ? 'bg-cyan-400 text-[#18181b]' : 'bg-[#2c2c31] text-white'}`}
+            ${showEducation ? 'bg-[#0D3C52] text-[#ffffff]' : 'bg-[#2c2c31] text-white'}`}
         >
           Education
         </button>
         <button
           onClick={() => setShowEducation(false)}
           className={`px-4 py-2 rounded-lg font-semibold transition 
-            ${!showEducation ? 'bg-cyan-400 text-[#18181b]' : 'bg-[#2c2c31] text-white'}`}
+            ${!showEducation ? 'bg-[#0D3C52] text-[#f7f7ff]' : 'bg-[#2c2c31] text-white'}`}
         >
           Experience
         </button>
@@ -89,7 +89,7 @@ const EducationExperience = () => {
       {/* Timeline Scroll Container */}
       <div
         ref={contentRef}
-        className="overflow-y-auto space-y-6 pr-2 sm:pr-4 h-full scrollbar-thin scrollbar-thumb-cyan-400 scrollbar-track-transparent"
+        className="overflow-y-auto space-y-6 pr-2 sm:pr-4 h-full scrollbar scrollbar-thin scrollbar-thumb-cyan-400 scrollbar-track-transparent"
       >
         {showEducation
           ? renderTimeline(EduData.education)
