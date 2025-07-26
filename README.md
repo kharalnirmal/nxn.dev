@@ -1,12 +1,52 @@
-# React + Vite
+<h1 align="center">🚀 nxn.dev — Personal Portfolio</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  A work-in-progress developer portfolio crafted by <strong>Nirmal (aka Nyxen)</strong>, built with love, React, Tailwind, and motion ✨
+</p>
 
-Currently, two official plugins are available:
+<br/>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+<div align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/TailwindCSS-0f172a?style=for-the-badge&logo=tailwindcss&logoColor=38bdf8" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white" />
+</div>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🎯 About This Project
+
+This is my **personal developer portfolio** – a space to showcase my work, skills, and passion for web development.  
+Right now, it's still under construction 🏗️ but here’s what I’m aiming for:
+
+- ⚛️ Built with **React** and styled using **Tailwind CSS**
+- 🔥 Animations powered by **GSAP**
+- 🛠️ Designed and coded from scratch — no templates
+- 📱 Fully responsive across devices
+- ✨ Clean, minimal UI with smooth interactions
+
+---
+
+## 📸 Screenshots
+
+_(Coming soon — still cooking it 🍳)_
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/nyxen/nxn.dev.git
+
+# Navigate to the folder
+cd nxn.dev
+
+# Install dependencies
+npm install
+
+# Start the dev server
+npm run dev
