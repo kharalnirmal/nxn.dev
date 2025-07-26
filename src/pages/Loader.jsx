@@ -3,7 +3,7 @@ import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { useRef } from 'react';
 
-const Loader = () => {
+const Loader = ({onComplete}) => {
   const countRef = useRef(null);
 
   useGSAP(() => {
@@ -19,6 +19,11 @@ const Loader = () => {
           countRef.current.textContent = `${value}%`;
         }
       },
+      onComplete : ()=>{
+        if (onComplete) {
+          onComplete();
+        }
+      } 
     });
   }, []);
 
