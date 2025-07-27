@@ -21,8 +21,7 @@ const Home = () => {
 
   useGSAP(()=>{
     const tl = gsap.timeline();
-    tl.from('.one', { opacity: 0, duration: 1.4, ease: 'sine.in' })
-    .from('.three', { opacity: 0,x: -70, duration: .8, ease: 'power4.out' }, '-=0.5')
+    tl.from('.three', { opacity: 0,x: -70, duration: .8, ease: 'power4.out' }, '0.5')
     .from('.two', { opacity: 0, x: -70, duration: .8, ease: 'power4.out' }, '-=0.5')
     .from('.seven', { opacity: 0, x: 70, duration: .8, ease: 'power4.out' }, '-=0.5')
     .from('.six', { opacity: 0, x: 70, duration: .8, ease: 'power4.out' }, '-=0.5')
@@ -34,9 +33,6 @@ const Home = () => {
 
   return (
     <section className="h-screen w-screen overflow-auto">
-      {/* Placeholder for navbar */}
-      <header className="h-16 w-full"></header>
-
       {/* Responsive Layout */}
       <div
         className="

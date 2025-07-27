@@ -3,6 +3,11 @@ import Home from "./pages/Home"
 import Loader from "./pages/Loader"
 import gsap from 'gsap';
 import { useGSAP } from "@gsap/react";
+import NavBar from "./components/NavBar";
+import { Route, Routes } from "react-router";
+import Projects from "./pages/Projects";
+import Contacts from "./pages/Contacts";
+
 
 const App = () => {
   const [isloading, setIsLoading] = useState(false);
@@ -31,16 +36,25 @@ gsap.from(HomeRef.current, {
 
   return (
     <main>
-    <div className="relative h-screen w-screen overflow-hidden">
+     
+    <div className="relative h-screen w-screen overflow-hidden ">
+      <div>
       {!isloading? (
         <div ref={LoaderRef}>
           <Loader onComplete={handelLoaderComplete } />
         </div>
       ) : (
         <div ref={HomeRef}>
-          <Home />
+           <NavBar />
+          <Routes>
+         <Route path ="/" element={<Home />} />
+         <Route path ="/projects" element={<Projects/>} /> 
+         <Route path ="/contact" element={<Contacts/>} /> 
+          </Routes>
+
         </div>
       )}
+    </div>
     </div>
     </main>
   )
