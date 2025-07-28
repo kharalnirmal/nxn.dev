@@ -21,12 +21,12 @@ const Home = () => {
 
   useGSAP(()=>{
     const tl = gsap.timeline();
-    tl.from('.three', { opacity: 0,x: -70, duration: .8, ease: 'power4.out' }, '0.5')
-    .from('.two', { opacity: 0, x: -70, duration: .8, ease: 'power4.out' }, '-=0.5')
-    .from('.seven', { opacity: 0, x: 70, duration: .8, ease: 'power4.out' }, '-=0.5')
-    .from('.six', { opacity: 0, x: 70, duration: .8, ease: 'power4.out' }, '-=0.5')
-    .from('.four', { opacity: 0, y:70 , duration: .8, ease: 'power4.out' }, '-=0.5')
-    .from('.five', { opacity: 0, x: 70, duration: .8, ease: 'power4.out' }, '-=0.5')
+    tl.from('.three', { opacity: 0,x: -70, duration: .8, ease: 'power1.out' }, '0.5')
+    .from('.two', { opacity: 0, x: -70, duration: .8, ease: 'power1.out' }, '-=0.5')
+    .from('.seven', { opacity: 0, x: 70, duration: .8, ease: 'power1.out' }, '-=0.5')
+    .from('.six', { opacity: 0, x: 70, duration: .8, ease: 'power1.out' }, '-=0.5')
+    .from('.four', { opacity: 0, y:70 , duration: .8, ease: 'power1.out' }, '-=0.5')
+    .from('.five', { opacity: 0, x: 70, duration: .8, ease: 'power1.out' }, '-=0.5')
   })
 
 
