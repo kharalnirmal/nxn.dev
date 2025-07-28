@@ -75,14 +75,14 @@ const EducationExperience = () => {
           className={`px-4 py-2 rounded-lg font-semibold transition 
             ${showEducation ? 'bg-[#0D3C52] text-[#ffffff]' : 'bg-[#2c2c31] text-white'}`}
         >
-          Experience
+         Education
         </button>
         <button
           onClick={() => setShowEducation(false)}
           className={`px-4 py-2 rounded-lg font-semibold transition 
             ${!showEducation ? 'bg-[#0D3C52] text-[#f7f7ff]' : 'bg-[#2c2c31] text-white'}`}
         >
-          Education
+         Experience
         </button>
       </div>
 
@@ -92,8 +92,8 @@ const EducationExperience = () => {
         className="overflow-y-auto space-y-6 pr-2 sm:pr-4 h-fullscrollbar scrollbar-thin scrollbar-thumb-cyan-400 scrollbar-track-transparent"
       >
         {showEducation
-          ? renderTimeline(EduData.experience)
-          :renderTimeline(EduData.education) }
+          ? renderTimeline(EduData.education)
+          :renderTimeline(EduData.experience) }
       </div>
     </div>
   );
