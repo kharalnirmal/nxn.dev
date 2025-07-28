@@ -42,7 +42,7 @@ const EducationExperience = () => {
     data.map((item, idx) => (
       <div key={idx} className="timeline-item relative pl-10 sm:pl-16 pb-10">
         {/* Vertical Line */}
-        <div className="absolute left-4 sm:left-6 top-0 w-1 h-full bg-[#0D3C52] rounded-full" />
+        <div className="absolute left-4 sm:left-6 top-0 w-1 h-[85%] bg-[#0D3C52] rounded-full" />
 
         {/* Timeline Dot with Logo */}
         <div className="absolute left-0 sm:left-1 top-0 w-8 h-8 bg-[#18181b] rounded-full border-4 border-[#0D3C52] overflow-hidden z-10 shadow-lg">
@@ -69,31 +69,31 @@ const EducationExperience = () => {
       className="bg-[#18181b] text-white p-4 sm:p-6 rounded-2xl h-full flex flex-col max-h-[80vh]"
     >
       {/* Toggle Buttons */}
-      <div className="flex flex-wrap justify-center gap-4 mb-4">
+      <div className="flex flex-wrap justify-center gap-6 mb-4">
         <button
           onClick={() => setShowEducation(true)}
           className={`px-4 py-2 rounded-lg font-semibold transition 
             ${showEducation ? 'bg-[#0D3C52] text-[#ffffff]' : 'bg-[#2c2c31] text-white'}`}
         >
-          Education
+          Experience
         </button>
         <button
           onClick={() => setShowEducation(false)}
           className={`px-4 py-2 rounded-lg font-semibold transition 
             ${!showEducation ? 'bg-[#0D3C52] text-[#f7f7ff]' : 'bg-[#2c2c31] text-white'}`}
         >
-          Experience
+          Education
         </button>
       </div>
 
       {/* Timeline Scroll Container */}
       <div
         ref={contentRef}
-        className="overflow-y-auto space-y-6 pr-2 sm:pr-4 h-full scrollbar scrollbar-thin scrollbar-thumb-cyan-400 scrollbar-track-transparent"
+        className="overflow-y-auto space-y-6 pr-2 sm:pr-4 h-fullscrollbar scrollbar-thin scrollbar-thumb-cyan-400 scrollbar-track-transparent"
       >
         {showEducation
-          ? renderTimeline(EduData.education)
-          : renderTimeline(EduData.experience)}
+          ? renderTimeline(EduData.experience)
+          :renderTimeline(EduData.education) }
       </div>
     </div>
   );

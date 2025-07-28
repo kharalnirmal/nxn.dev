@@ -67,21 +67,21 @@ const Home = () => {
             I'm passionate about web development and always eager to learn new technologies . If you have a project you'd like to collaborate on, feel free to reach out. I'd love to connect!</p>
         </div>
         {/* --------------------------------------------technologies div -------------------------------------------- */}
-        <div className=" four bg-[#18181B] text-white p-4 rounded-2xl md:col-span-4 md:row-span-5 md:col-start-2 md:row-start-5">
+        <div className=" md:mb-20 four bg-[#18181B] text-white p-4 rounded-2xl md:col-span-4 md:row-span-5 md:col-start-2 md:row-start-5">
           <h1 className='text-3xl font-bold p-5'>Technologies I have worked with</h1>
-          <div className=' flex flex-wrap justify-center gap-4 p-5 md:gap-7'>
+          <div className=' flex flex-wrap justify-center gap-4 p-5 md:gap-8'>
             {techStack.map((tech, index) => (
-              <img src={tech.imgSrc} alt={tech.name} key={index} className=' object-fit size-15 md:size-18 md:gap-3' />
+              <img src={tech.imgSrc} alt={tech.name} key={index} className=' object-fit size-8 md:size-15 ' />
             ))}
           </div>
           {/* -----------------------------------------------Education div ---------------------------------------------------- */}
 
         </div>
-        <div className="five bg-[#18181B] text-white p-4 rounded-2xl md:col-span-6 md:row-span-4 md:col-start-6 md:row-start-6">
-          <div>
+        <div className="relative mb-20 five  bg-[#18181B] text-white  rounded-2xl md:col-span-6 md:row-span-4 md:col-start-6 md:row-start-6">
+        <div className='relative  '>
             <Education />
-            
           </div>
+          
         </div>
 
         {/* ------------------------------------------------galaxies div-------------------------------------------------------- */}
