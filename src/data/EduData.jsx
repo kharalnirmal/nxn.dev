@@ -29,10 +29,10 @@ const EduData = {
       title: 'CSITAN-Rupandehi',
       role: 'Treasurer (volunteer)',
       bullets: [
-        'Managed financial records and budgeting for events',
-  'Handled sponsorship funds and reimbursements',
-  'Collaborated with event teams for cost planning',
-  'Ensured transparent and accurate financial reporting',
+        'Managing financial records and budgeting for events',
+  'Handling sponsorship funds and reimbursements',
+  'Collaborating with event teams for cost planning',
+  'Ensuring transparent and accurate financial reporting',
       ],
     },
     {

@@ -57,9 +57,7 @@ const Home = () => {
         <div className="three bg-[#18181B] text-white p-5 rounded-2xl md:col-span-7 md:row-span-2 md:col-start-2">
           <span className="font-bold text-2xl md:text-4xl py-2">Who am I?</span>
           <p className="pt-3 leading-[32px] text-xl md:text-2xl opacity-[0.6] pr-5">
-            Hi, I'm Nirmal - a Full Stack Developer currently studying at Tribhuvan University in Nepal.
-            I'm passionate about web development and always eager to learn new technologies.
-            If you have a project you'd like to collaborate on, feel free to reach out. I'd love to connect!
+            Hi, I'm Nirmal, a Full Stack Developer currently studying at Tribhuvan University in Nepal. I focus on building scalable and efficient web applications, with a strong interest in creative development. I'm always looking to collaborate on meaningful projects and explore new opportunities, feel free to connect.
           </p>
         </div>
 
