@@ -42,7 +42,7 @@ const EducationExperience = () => {
     data.map((item, idx) => (
       <div key={idx} className="timeline-item relative pl-10 sm:pl-16 pb-10">
         {/* Vertical Line */}
-        <div className="absolute left-4 sm:left-6 top-0 w-1 h-[85%] bg-[#0D3C52] rounded-full" />
+        <div className="absolute left-[0.8rem] md:left-[1.15rem] top-0 w-1 h-[85%] bg-[#0D3C52] rounded-full" />
 
         {/* Timeline Dot with Logo */}
         <div className="absolute left-0 sm:left-1 top-0 w-8 h-8 bg-[#18181b] rounded-full border-4 border-[#0D3C52] overflow-hidden z-10 shadow-lg">
