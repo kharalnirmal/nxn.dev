@@ -56,7 +56,7 @@ const Home = () => {
         {/* Intro Section */}
         <div className="three bg-[#18181B] text-white p-5 rounded-2xl md:col-span-7 md:row-span-2 md:col-start-2">
           <span className="font-bold text-2xl md:text-4xl py-2">Who am I?</span>
-          <p className="pt-3 leading-[32px] text-xl md:text-[1.3rem] opacity-[0.6] pr-5">
+          <p className="pt-3 md:leading-[32px] text-lg d:text-[1.3rem] opacity-[0.6] pr-5">
             Hi, I'm Nirmal, a Full Stack Developer currently studying at Tribhuvan University in Nepal. I focus on building scalable and efficient web applications, with a strong interest in creative development. I'm always looking to collaborate on meaningful projects and explore new opportunities, feel free to connect.
           </p>
         </div>
