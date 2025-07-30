@@ -20,8 +20,8 @@ console.log(ProjectData)
           <div className="md:w-[50%] -mt-2 md:mt-0  rounded-3xl flex flex-col gap-2">
             <div className=" description bg-[#18181b] rounded-3xl">
               <div className=" relative w-full flex flex-col px-3">
-                <h1 className="font-bold md:text-3xl text-2xl py-2 text-white s ">{project.name}</h1>
-                <p className="md:text-lg text-xs leading-[1.1] font-medium  text-[#9ca3af]">{project.description}</p>
+                <h1 className="font-bold md:text-3xl text-2xl p-2 pt-3 text-white s ">{project.name}</h1>
+                <p className="md:text-[1.1rem] text-xs leading-[1.1] font-medium  text-[#9ca3af]">{project.description}</p>
               </div>
               <div className="w-full p-3 flex">
                 {project.technology.map((tech, idx) => (
@@ -33,7 +33,7 @@ console.log(ProjectData)
             <a href={project.link} target="_blank"
               rel="noopener noreferrer"
               className="w-full bg-[#18181b] hover:bg-[#38383c] py-3 rounded-3xl flex-center ">
-              <img src="/link-svgrepo-com.svg" className="size-10" alt="" />
+              <img src="/svg/link-svgrepo-com.svg" className="size-10" alt="" />
             </a>
           </div>
         </div>
