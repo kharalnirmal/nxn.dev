@@ -50,7 +50,7 @@ const Home = () => {
         {/* Identity Section */}
         <div className="two bg-[#0D3C52] text-white p-4 rounded-2xl md:col-span-4 md:row-span-2 md:col-start-2 md:row-start-3 flex justify-center flex-col text-center leading-9 md:leading-11">
           <h1 className="text-[2rem] md:text-[2.6rem] font-bold">Student &</h1>
-          <h1 className="text-[2rem] md:text-[2.6rem] font-bold">Fullstack Developer</h1>
+          <h1 className="text-[2rem] md:text-[2.5rem] font-bold">Fullstack Developer</h1>
         </div>
 
         {/* Intro Section */}

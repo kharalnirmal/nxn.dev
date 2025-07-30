@@ -34,6 +34,17 @@ const EduData = {
   'Collaborating with event teams for cost planning',
   'Ensuring transparent and accurate financial reporting',
       ],
+    },{
+      date: 'Jan 2024 - Present',
+      logo: '/public/aesic.webp',
+      title: 'AIESEC in Lumbini',
+      role: 'Stakeholder manager(Incoming Exchanges)',
+      bullets: [
+        'Connected with multiple international entities',
+        'Connected to multiple local enablers',
+        'Engaged in Balkalakar event curated for young students',
+        'Focused on Youth Leadership and development through exchanges',
+      ], 
     },
     {
       date: 'Oct 2024 - May 2025',
@@ -46,7 +57,7 @@ const EduData = {
   'Promoted community engagement and active participation',
   'Focused on leadership, teamwork, and member development',
       ],
-    },
+    }
   ],
 };
 
