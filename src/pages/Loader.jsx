@@ -36,7 +36,7 @@ const Loader = ({onComplete}) => {
           autoplay
           className="scale-[2] md:-mb-9 md:scale-[1.4] object-cover"
         />
-        <p className="w-full md:mt-0 mt-6 text-nowrap text-center md:text-4xl text-white text-xl italic animate-pulse">
+        <p className="w-full md:mt-4 mt-6  text-nowrap text-center md:text-4xl text-white text-xl italic animate-pulse">
           A quiet moment in the forest of creation
         </p>
       </div>
