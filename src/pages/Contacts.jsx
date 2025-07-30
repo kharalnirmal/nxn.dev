@@ -16,7 +16,10 @@ const Contacts = () => {
           <div className='mail bg-[#18181b] p-4  h-[15vh] md:h-[30vh] rounded-xl flex-center  '>
             <a className=" rounded-xl bg-[#6f7379] p-3  flex flex-center " target='_blank' href="mailto: nirmalkharal40@gmail.com">
               <img src="/svg/email-svgrepo-com.svg" className='size-3 mr-1' alt="" />
-              <h1 className='relative  md:text-4xl:'>nirmalkharal40@gmail.com</h1>
+              <div className="flex flex-row md:flex-col lg:flex-row">
+                 <h1 className='text-xs md:text-sm  '>nirmalkharal</h1> <span className="text-xs md:text-sm" > 40@gmail.com</span>
+              </div>
+             
             </a>
           </div>
             <a className="relative github bg-[#18181b] p-4  h-[30vh]  flex-center rounded-xl  flex col-center hover:bg-[#212124] text-wrap gap-3" target='_blank'  href="https://github.com/kharalnirmal">
