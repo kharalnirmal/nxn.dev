@@ -21,7 +21,7 @@ console.log(ProjectData)
             <div className=" description bg-[#18181b] rounded-3xl">
               <div className=" relative w-full flex flex-col px-3">
                 <h1 className="font-bold md:text-3xl text-2xl p-2 pt-3 text-white s ">{project.name}</h1>
-                <p className="md:text-[1.1rem] text-xs leading-[1.1] font-medium  text-[#9ca3af]">{project.description}</p>
+                <p className="md:text-[1.1rem] text-xs leading-[1.1] pl-2 font-medium  text-[#9ca3af]">{project.description}</p>
               </div>
               <div className="w-full p-3 flex">
                 {project.technology.map((tech, idx) => (
