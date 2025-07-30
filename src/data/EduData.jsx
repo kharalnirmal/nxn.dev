@@ -2,7 +2,7 @@ const EduData = {
   education: [
     {
       date: '2023 - Present',
-      logo: '/public/Tribhuvan-University-TU-Logo-Vector.svg-.png',
+      logo: '/Tribhuvan-University-TU-Logo-Vector.svg-.png',
       title: 'Tribhuvan University',
       role: 'BSc CSIT Student',
       bullets: [
@@ -12,7 +12,7 @@ const EduData = {
     },
     {
       date: '2021 - 2023',
-      logo: '/public/school.jpg',
+      logo: '/school.jpg',
       title: 'Kalika ManavGyan Secondary School',
       role: '+2 Science',
       bullets: [
@@ -25,7 +25,7 @@ const EduData = {
   experience: [
     {
       date: 'May 2025 - Present',
-      logo: '/public/Rupandehi.webp',
+      logo: '/Rupandehi.webp',
       title: 'CSITAN-Rupandehi',
       role: 'Treasurer (volunteer)',
       bullets: [
@@ -36,7 +36,7 @@ const EduData = {
       ],
     },{
       date: 'Jan 2024 - Present',
-      logo: '/public/aesic.webp',
+      logo: '/aesic.webp',
       title: 'AIESEC in Lumbini',
       role: 'Stakeholder manager(Incoming Exchanges)',
       bullets: [
@@ -48,7 +48,7 @@ const EduData = {
     },
     {
       date: 'Oct 2024 - May 2025',
-      logo: '/public/Rupandehi.webp',
+      logo: '/Rupandehi.webp',
       title: 'CSITAN-Rupandehi',
       role: 'Executive Member (volunteer) ',
       bullets: [

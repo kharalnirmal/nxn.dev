@@ -5,17 +5,17 @@ import { useGSAP } from '@gsap/react';
 
 const Home = () => {
   const techStack = [
-    { name: "React", imgSrc: "/public/svg/react-svgrepo-com.svg" },
-    { name: "Redux", imgSrc: "/public/svg/redux-svgrepo-com.svg" },
-    { name: "Javascript", imgSrc: "/public/svg/js-svgrepo-com.svg" },
-    { name: "Github", imgSrc: "/public/svg/github-01-svgrepo-com.svg" },
-    { name: "Tailwind", imgSrc: "/public/svg/tailwind-css-svgrepo-com.svg" },
-    { name: "Express", imgSrc: "/public/svg/express-svgrepo-com.svg" },
-    { name: "MongoDB", imgSrc: "/public/svg/mongodb-svgrepo-com.svg" },
-    { name: "MySql", imgSrc: "/public/svg/mysql-svgrepo-com.svg" },
-    { name: "Docker", imgSrc: "/public/svg/docker-svgrepo-com.svg" },
-    { name: "GSAP", imgSrc: "/public/svg/gsap-logo_svgstack_com_202507269823.svg" },
-    { name: "Node Js", imgSrc: "/public/svg/nodejs-logo-svgrepo-com.svg" },
+    { name: "React", imgSrc: "/svg/react-svgrepo-com.svg" },
+    { name: "Redux", imgSrc: "/svg/redux-svgrepo-com.svg" },
+    { name: "Javascript", imgSrc: "/svg/js-svgrepo-com.svg" },
+    { name: "Github", imgSrc: "/svg/github-01-svgrepo-com.svg" },
+    { name: "Tailwind", imgSrc: "/svg/tailwind-css-svgrepo-com.svg" },
+    { name: "Express", imgSrc: "/svg/express-svgrepo-com.svg" },
+    { name: "MongoDB", imgSrc: "/svg/mongodb-svgrepo-com.svg" },
+    { name: "MySql", imgSrc: "/svg/mysql-svgrepo-com.svg" },
+    { name: "Docker", imgSrc: "/svg/docker-svgrepo-com.svg" },
+    { name: "GSAP", imgSrc: "/svg/gsap-logo_svgstack_com_202507269823.svg" },
+    { name: "Node Js", imgSrc: "/svg/nodejs-logo-svgrepo-com.svg" },
   ];
 
   useGSAP(() => {
@@ -37,7 +37,7 @@ const Home = () => {
         <div className="one bg-[#18181b] group p-4 rounded-2xl md:col-span-3 md:row-span-3 md:col-start-6 md:row-start-3">
           <div className="h-full w-full flex-center flex-col">
             <img
-              src="/public/MYPIC.webp"
+              src="/MYPIC.webp"
               className="w-20 h-20 rounded-full object-cover md:w-40 md:h-40"
               alt="Profile Picture"
             />
@@ -93,7 +93,7 @@ const Home = () => {
         {/* Galaxies */}
         <div className="six bg-[#0D3C52] text-white rounded-2xl md:col-span-3 md:row-span-3 md:col-start-9 hidden md:block">
           <img
-            src="/public/galaxies.webp"
+            src="/galaxies.webp"
             className="h-full w-full object-cover rounded-2xl"
             alt="galaxies"
           />

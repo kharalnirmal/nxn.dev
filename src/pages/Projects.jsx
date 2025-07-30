@@ -33,7 +33,7 @@ console.log(ProjectData)
             <a href={project.link} target="_blank"
               rel="noopener noreferrer"
               className="w-full bg-[#18181b] hover:bg-[#38383c] py-3 rounded-3xl flex-center ">
-              <img src="/public/svg/link-svgrepo-com.svg" className="size-10" alt="" />
+              <img src="/link-svgrepo-com.svg" className="size-10" alt="" />
             </a>
           </div>
         </div>

@@ -7,7 +7,7 @@ const ProjectData =
             technology:[
                 "React","Js","Tailwind","Gsap"
             ],
-            images :"/public/gta.webp",
+            images :"/gta.webp",
             link:'https://gta-vi-landing-page-cyan.vercel.app/'
         },
         {   
@@ -15,7 +15,7 @@ const ProjectData =
     description: "Zentry-LandingPage is a modern UI clone of the Zentry.com website built using React. The project replicates the clean, professional layout of Zentry using React.js, Tailwind CSS, JavaScript, and GSAP for interactive animations and smooth scroll-based transitions.",
     technology: [
         "React", "Js", "Tailwind", "Gsap"],
-        images:"/public/zentry.webp",
+        images:"/zentry.webp",
         link:"https://zentry-the-metagame-3a86.vercel.app/"
 }
 ] 
